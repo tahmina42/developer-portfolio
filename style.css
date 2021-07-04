@@ -1,5 +1,6 @@
 body{
     font-family: 'Poppins', sans-serif;
+    margin: 0;
 }
 .half-section h1{
     font-size: 50px;
@@ -8,7 +9,9 @@ body{
     text-align: justify;
 }
 .hero-section{
-
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
+    margin-bottom: 100px;  
     display: flex;
 }
 .half-section{
@@ -29,10 +32,22 @@ h1 .name-color{
     text-decoration: none;
     padding:10px 40px;
     color: white;
+    text-transform: uppercase;
+    border-radius: 5px;
 }
 a.link-btn{
    margin-top: 5px;
 }
 .btn-top {
     padding-top: 20px;
+}
+/*Dream section style start*/
+.dream-section{
+    display: flex;
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position-x: right;
+}
+.half-section.dream-half-section {
+    padding-right: 150px;
 }
